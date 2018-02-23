@@ -1,0 +1,30 @@
+.rangeSlider {
+    width: calc(100% - 20px);
+    float: left;
+    border: 0;
+    background-color: #dcdcdc;
+    height: 5px;
+    margin-left: 10px;z-index:99;
+}
+.rangeSlider .ui-widget-header {
+    background: #33ccff;
+}
+.rangeSlider.ui-slider-horizontal .ui-slider-handle {
+    width: 14px;
+    height: 14px;
+    border: 0;
+    border-radius: 28px;
+    background: #33ccff;
+}
+.rangeValShow {
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.rangeValShow i {
+    margin-left: 2px;
+    font-size: 11px;
+}
+.rangeValShow.pull-right {
+    color: #33ccff
+}
